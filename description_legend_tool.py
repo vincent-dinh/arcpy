@@ -1,4 +1,10 @@
-#want to fix the bug? initialliser la list description_list = symbology value lenght
+#To put in an Arcgis toolbox
+#First the layer need to be "symbolized" with multiple values
+#Then to put the content of a field in the description run the tool and
+#Specify : 1) the value used to sort the symbology
+#          2) the field containing the description
+#          3) a temporary output table
+
 
 
 layer = arcpy.GetParameterAsText(0)
